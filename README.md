@@ -28,23 +28,20 @@ This project focuses on simplicity, usability, and real-life relevance for stude
 
 
 
-
- 
- # Project Structure
+# Project Structure
  
 AttendanceTrackerWeb/
-│
-├── src/
-│   └── com.attendance
-│       └── AttendanceServlet.java
-│
-├── WebContent/
-│   ├── index.html
-│   ├── result.jsp
-│   └── style.css
-│
-└── WEB-INF/
-    └── web.xml
+
+   |── src/com/attendance/AttendanceServlet.java
+
+   |── WebContent/index.html
+
+   |── WebContent/result.jsp
+
+   |── WebContent/style.css
+
+   |── WebContent/WEB-INF/web.xml
+
     
 # How to Run the Project
 - Install JDK and Apache Tomcat
